@@ -1,0 +1,70 @@
+* {
+   
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: italic;
+    
+}
+
+body {
+    background-color: rgb(4, 156, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    
+}
+
+.content {
+    border-width: 10px;
+    border-color: rgb(99, 91, 61);
+    border-style:solid;
+    padding: 20px;
+    background-color: rgb(138, 128, 89);
+    
+    display: flex;
+   
+
+    border-radius: 24px;
+    justify-content: space-between;
+}
+
+
+form {
+    color: rgb(207, 193, 134);
+    padding: 20px;
+    display: flex;
+    
+    border-width: 3px;
+    border-radius: 2px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input {
+    color: white;
+    background-color: rgb(98, 91, 63);
+    border-color: rgb(148, 137, 94);
+}
+
+button {
+    color: rgb(207, 193, 134);
+    border-color: rgb(98, 91, 63);
+    background-color: rgb(148, 137, 94);
+}
+
+button:active {
+    color: rgb(179, 166, 117);
+    background-color: rgb(119, 111, 76);
+}
+
+.placa {
+    border-width: 10px;
+    border-style: solid;
+    background-color: rgb(95, 89, 67);
+    border-color: rgb(60, 57, 42);
+    padding: 50px;
+    width: 50%;
+    
+   
+}

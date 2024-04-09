@@ -1,0 +1,183 @@
+* {
+    
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+      
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+    padding: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.produto {
+    width: 200px;
+    margin: 5px;
+    padding: 20px;
+    border: 2px gray solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.produto h2 {
+    margin: 5px;
+}
+
+.produto h4 {
+    margin: 5px;
+}
+
+.produto img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.produto input{
+    border: 3px solid rgb(28, 37, 34);
+    border-radius: 7px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 3px;
+}
+.produto input:hover{
+    margin-top: 3px;
+    transition: 0.3s;
+    
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(207, 249, 235);
+    padding: 3px;
+    border-width: 3px;
+}
+
+.produto input:active {
+    margin-top: 3px;
+    transition: 0s;
+    color: rgb(63, 54, 54);
+    background-color: rgb(197, 171, 171);
+    border-color: rgb(63, 63, 63);
+    padding: 3px;
+    border-width: 3px;
+}
+
+header {
+    background-color:black;
+    color:white;
+    font-weight: bold;
+    font-size:23px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.nav {
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+   
+    
+}
+
+
+.carrinho img {
+    display: flex;
+    width: 40px;
+    margin-right: 7px;
+    margin: 0px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    flex-direction: row;
+   
+}
+
+
+.titulo img {
+    width: 50px;
+}
+
+.circulo {
+    background: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px; 
+    border-width: 3px;
+    border-color: black;
+    border-style:solid;
+    font-weight: bold;
+    padding: 0.5px;
+    position:absolute;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 30px;
+    
+    text-align: center;
+    
+
+ 
+}
+
+
+h1 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+.titulo p {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}

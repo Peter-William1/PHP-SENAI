@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a6d48;
+    flex-direction: column;
+  
+}
+
+* {     
+       
+        color: white;
+        font-family: "Patua One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110%;
+}
+
+.titulo {
+    display: flex;
+    color: white;
+    text-decoration: underline;
+
+
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 140%;
+
+  
+}
+
+td, tr, th, table {
+    text-align: left;
+    border: 2px black solid;
+    border-collapse: collapse;
+    color: white ;
+    padding: 5px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+th {
+    background-color: #494436;
+    font-weight:600;
+    
+}
+
+td, tr{
+    font-weight:200;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+input {
+    margin-left: 5px;
+    
+    color: white;
+    border: 3px black solid;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    text-decoration: underline;
+    flex-direction: column;
+    border: 10px white ;
+    margin-top: 20px;
+    border-style: dashed;
+}
+
+.inputext {
+    padding-left: 10px;
+    color: black;
+}
+
+
+input:active {
+    border: 3px black solid;
+    color: black;
+
+}
+
+input:hover {
+    border: 3px rgba(135, 135, 135, 0.595) solid;
+    
+}
+
+table {
+    margin-top: 20px;
+    box-shadow: 0px 0px 68px 30px rgba(0,0,0,0.1);
+    
+        
+}
+header {
+    margin: 0px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #2c271a;
+    justify-content: center;
+    box-shadow: 10px 4px 4px black;
+
+}
+
+.livros {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+button {
+    margin:50px;
+    padding: 10px;
+    background-color: #7b735c;
+    
+    border: 3px white solid;
+}
+
+tr:nth-child(even) {
+    background-color: #8b7c52;
+}
+
+tr:nth-child(odd) {
+    background-color: #7c6a3a;
+}
+
+button:hover {
+    border-color: black;
+    color: wheat;
+}
+
+button:active {
+    color:rgb(233, 177, 177);
+    border-color:rgb(233, 177, 177) ;
+    background-color: #494436;
+}
+
+.botaobuscar{
+    background-color: #2c271a;
+    border: 3px white solid;
+    color: white;
+   
+}
+.botaobuscar:hover {
+    color: rgba(135, 135, 135, 0.595);
+}
+

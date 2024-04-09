@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .borda-customizada {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: lightblue;
+    }
+
+    .borda-customizada::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+      border: 10px solid red; /* Largura e cor dos cantos */
+      box-sizing: border-box;
+      border-radius: 10px; /* Bordas arredondadas */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="borda-customizada"></div>
+
+</body>
+</html>

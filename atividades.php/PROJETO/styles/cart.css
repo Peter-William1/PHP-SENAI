@@ -1,0 +1,366 @@
+* {
+    
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-color:rgb(180, 219, 205) ;
+  
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    background-color: white;
+    height: 100%;
+}
+
+table {
+    display: flex;
+    border: 5px  rgb(180, 219, 205);
+    border-style: double;
+    border-collapse: collapse;
+    background-color: white;
+    
+   
+}
+
+table img{
+    
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.content {
+    display:flex;
+    padding-top: 50px;
+    
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+td {
+    border: 5px rgb(180, 219, 205) ;
+    
+    border-style: double;
+    padding: 10px;
+   
+}
+
+tr{
+    border: 5px  black ;
+    padding: 10px;
+    border-style: double;
+   
+}
+
+
+
+header {
+    background-color:black;
+    color:white;
+    font-weight: bold;
+    font-size:23px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.nav {
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+   
+    
+}
+
+
+.carrinho img {
+    display: flex;
+    width: 40px;
+    margin-right: 7px;
+    margin: 0px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    flex-direction: row;
+   
+}
+
+
+.titulo img {
+    width: 50px;
+}
+
+.circulo {
+    background: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px; 
+    border-width: 3px;
+    border-color: black;
+    border-style:solid;
+    font-weight: bold;
+    padding: 0.5px;
+    position:absolute;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 30px;
+    text-align: center;
+    
+
+ 
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.descricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.descricao h1{
+    border-width: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: rgb(180, 219, 205) ;
+}
+
+
+
+
+
+.valor {
+    padding:0px;
+
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+
+.valor input {
+    flex-direction: column  ;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 48%;
+    border: 2px black solid ; 
+    margin: 5px;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.556);
+    
+}
+
+
+
+.valor input[type="number"] {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0px;
+    
+    font-size: 20px;
+    border: 2px black solid ;   
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+
+.valor h1 {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start ;
+    
+}
+
+.valorbox {
+    padding:0px;
+    padding-right: 20px;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+a button {
+    background-color: white;
+    border: none;
+}
+
+a img {
+    width: 40px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.editarqntd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vazio {
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-weight:bolder;
+    
+    color: rgb(180, 219, 205) ;
+
+    
+}
+
+
+.titulocarrinho {
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+
+.h1car {
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+}
+
+.botoessair {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoessair button {
+    font-weight: bold;
+    border: 2px black solid;
+    padding: 2px;
+    margin: 2px;
+
+}
+.botoessair  button:hover{
+    
+    transition: 0.3s;
+    
+    color:  rgb(0, 0, 0);
+    background-color: rgb(207, 249, 235);
+    border-color: rgba(0, 0, 0, 0.475);
+    
+    
+}
+.botoessair  button:active{
+    
+    transition: 0s;
+    
+    color:  rgb(255, 255, 255);
+    background-color: rgb(117, 140, 132);
+    border-color: rgba(96, 90, 90, 0.475);
+    
+    
+}
+
+.h1preco {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+    
+}
+
+
+
+.titulo p {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablevazio {
+    border: 5px rgb(180, 219, 205) double;
+   
+   
+}
+
+.tablevazio td {
+    border: 0px;
+}

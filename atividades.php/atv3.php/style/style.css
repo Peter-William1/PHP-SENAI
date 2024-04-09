@@ -1,0 +1,230 @@
+
+* {
+    font-family: "Exo 2", sans-serif;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header {
+    
+    font-family: "Signika Negative", sans-serif;
+    background-color: #232423;
+    font-size: 23px;
+    color: white;
+    
+}
+
+header p {
+    margin: 20px;
+    margin-left: 10px;
+}
+
+
+
+.titulo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 201, 90);
+    
+}
+
+.titulo img {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+.escudo {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.content {
+    
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: flex-start;
+    
+    flex-direction: row;
+}
+
+.separador {
+    margin: 20px;
+    padding: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imagens2 {
+    border-radius: 25px;
+    
+    margin: 6px;
+    flex-direction: column;
+}
+
+
+.imagens2 img {
+    border-radius: 25px;
+    height: 100px;
+    width: 150px;
+}
+
+.imagens1 img {
+    border-radius: 25px;
+    height: 200px;
+    width: 300px;
+    margin: 6px;
+}
+
+
+
+
+
+.separador p {
+    margin: 20px;
+    max-width: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 10px;
+       border-style: solid;
+    color:#232423;
+    font-size: 15px;
+}
+
+form {
+    padding: 10px;
+    background-color: rgb(112, 201, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    border-radius: 6px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 10px;
+       border-style: solid;
+}
+
+.formulario {
+    margin: 20px;
+    background-color: rgb(112, 201, 90);
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+}
+
+h1 {
+    color: white;
+}
+
+form img {
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+}
+
+input {
+    background-color: rgb(40, 199, 0);
+    border-color: white;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    color:white;
+    font-weight: bold;
+}
+
+.times {                
+    margin: 20px;
+    border-radius: 23px;
+    padding: 20px;
+    background-color: rgb(112, 201, 90);
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+table {
+    background-color: rgb(112, 201, 90);
+    align-items: left;
+    justify-content: left;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-spacing: 0px;
+    
+    
+}
+
+.times p {
+    font-size: 20px;
+}
+
+
+th {
+     
+    border: 1px solid white;
+    padding: 10px;
+    
+    
+}
+
+tr {
+    
+    margin: 10px;
+}
+
+
+
+button {
+    margin-top: 20px;
+    background-color: rgb(40, 199, 0);
+    border-color: white;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    color:white;
+    font-weight: bold;
+}
+
+.separador2 {
+    border: 2px solid black;
+}
+

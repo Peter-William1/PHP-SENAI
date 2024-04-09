@@ -1,0 +1,171 @@
+table {
+    font-family: Tahoma;
+}
+
+
+body {
+    background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/curiosidades/alegria_windows_xp_widelg.jpg);
+    background-size: cover; /* Para cobrir todo o elemento body */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que a imagem cubra toda a altura da viewport */
+    margin: 0;
+
+    
+    display: flex;
+    flex-direction: column;
+}    
+        
+h1 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.content {
+
+    margin: 9px;
+    color: white;
+    align-items: center;
+    background-color: blue;
+    border-width: 3px;
+    border-color: white;
+    border-style:outset;
+    border-radius: 5px;
+    position:absolute;
+}
+
+.conten {
+
+    color: white;
+    margin: 19px;
+    
+    align-items: center;
+    background-color: blue;
+    border-width: 3px;
+    border-color: white;
+    border-style:outset;
+    border-radius: 5px;
+   position:absolute;
+}
+.conten1 {
+
+    color: white;
+    margin: 29px;
+    align-items: center;
+   background-color: blue;
+   border-width: 3px;
+   border-color: white;
+   border-style:outset;
+   border-radius: 5px;
+   position:absolute;
+}
+.conten2 {
+
+    color: white;
+   margin: 39px;
+    align-items: center;
+   background-color: blue;
+   border-width: 3px;
+   border-color: white;
+   border-style:outset;
+   border-radius: 5px;
+   position:relative;
+}
+
+header {
+    
+    
+    background-color: blue;
+
+}
+
+form {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+
+.rainbow-text {
+    text-decoration: underline;
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: #A3A3A3 1px 1px 1px;
+}
+.rainbow-text .block-line > span {
+	display: inline-block;
+}
+
+input {
+    border-width: 2px;
+    border-color:  rgb(146, 146, 146);
+    border-style: inset;
+    font-family: Tahoma;
+}
+button {
+    margin: 2px;
+    border-width: 1px;
+    background-color: white;
+    border-color:  rgb(70, 135, 160);
+    margin-top: 5px;
+    border-radius: 3px;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight:lighter;
+
+
+}
+
+.box {
+    color: white;
+    margin: 39px;
+    align-items: center;
+    background-color: blue;
+    border-width: 3px;
+    border-color: white;
+    border-style:outset;
+    border-radius: 5px;
+    
+}
+
+.placa {
+    display: flex;
+    flex-direction:row;
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+header button {
+    margin-left: 41px;
+    background-color: red;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 3px;
+    
+}
+
+.text {
+    color: black;
+    margin-left: 3px;
+    width: 196px;
+    height: 50px;
+    position: absolute;
+    font-size: 14px;
+
+    
+}
+
+.osaker {
+    display: flex;
+    margin : 20px;
+}

@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4903c252-80d5-467f-abcc-fccc542e4187/dbf0bz7-92f7ea1d-cdfe-4245-b118-65733c19f683.png/v1/fill/w_1024,h_768/v_a_p_o_r_w_a_v_e___aesthetic_mountains_by_rayed_the_pleb_dbf0bz7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNDkwM2MyNTItODBkNS00NjdmLWFiY2MtZmNjYzU0MmU0MTg3XC9kYmYwYno3LTkyZjdlYTFkLWNkZmUtNDI0NS1iMTE4LTY1NzMzYzE5ZjY4My5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tueN1WIciQT8n9yMFaW19jtzkuVhU6JIzEkaIAxLLOc");
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0px;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    
+    max-width: 180px;
+    padding: 20px;
+}
+
+.formulario {
+    border-width: 2px;
+    border-color: rgb(77, 0, 165, 0.5);
+    border-style: solid;
+    border-radius: 5px;
+   
+   
+
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    background: rgb(245,204,249);
+    background: linear-gradient(90deg, rgba(245,204,249,0.7287289915966386) 0%, rgba(237,146,224,0.711922268907563) 51%, rgba(250,93,223,0.7091211484593838) 100%);
+    box-shadow: 0px 0px 20px rgba(121, 31, 166);
+}
+
+.formulario label {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 5px;
+}
+
+.formulario input{
+
+    background: rgb(245,204,249);
+    background: linear-gradient(90deg, rgba(245,204,249,0.7287289915966386) 0%, rgba(237,146,224,0.711922268907563) 51%, rgba(250,93,223,0.7091211484593838) 100%);
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+
+}
+
+header {
+    padding: 4px;
+    padding-left: 5px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    color: white;
+    background-color: rgb(183, 183, 183);
+
+}
+
+header button {
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 20px;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    background-color: red;
+    border-width:  1px;
+    border-color: white;
+    color: white;
+    border-style: solid;
+}
+
+.valores {
+
+
+
+
+
+
+
+
+
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+}
+
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

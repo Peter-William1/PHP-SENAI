@@ -1,0 +1,170 @@
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #395e98;
+    
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+   
+}
+
+.notas {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+   
+}
+.notas label {
+    font-size: 20px;
+}
+
+.notas input {
+    padding-left: 5px;
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.nome input {
+    width: 100%;;
+}
+
+input  {
+
+    border-radius: 15px;
+    border-color: #004C9B;
+    border-style: solid;
+    background-color: #54bae6;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+
+}
+
+.content header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:5px;
+    border-top-left-radius:25px; 
+    border-top-right-radius:25px;
+}
+
+header {
+
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    display: flex;
+    justify-content: flex-start;
+
+    background-color: #004C9B;
+
+    
+}
+
+header img{
+    width: 200px;
+}
+.conteudo {
+    padding:20px;
+}
+
+input:hover{
+    background-color: #50B0D8;
+    border-color: #0154ac;
+}
+
+input:active {
+    background-color: #50caff;
+    border-color: #0162c9;
+    color: rgb(0, 0, 0);
+}
+
+.botaoenviar input{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.Listar button {
+    border-radius: 15px;
+    border-color: #004C9B;
+    border-style: solid;
+    background-color: #54bae6;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.Listar button:hover {
+    background-color: #50B0D8;
+    border-color: #0154ac;
+}
+.Listar button:active {
+    background-color: #50caff;
+    border-color: #0162c9;
+    color: rgb(0, 0, 0);
+}
+
+
+button {
+    background-color: #50caff;
+    color: white;
+    border: 1px #50caff solid;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    transition: 0.110s;
+    color: rgb(225, 225, 225);
+    background-color: #4397bb;
+ 
+}
+
+button:active {
+    background-color: #51cafd;
+    border-color: #0162c9;
+    color: rgb(0, 0, 0);
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
